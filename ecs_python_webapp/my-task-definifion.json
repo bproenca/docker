@@ -1,0 +1,21 @@
+{
+    "family": "task-ecs-python-webapp-def",
+    "containerDefinitions": [
+        {
+            "name": "task-ecs-python-webapp",
+            "image": "bproenca/ecs_python_webapp",
+            "cpu": 10,
+            "memory": 500,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+            ],
+            "entryPoint": [
+                "./runapp.sh"
+            ],
+            "essential": true
+        }
+    ]
+}

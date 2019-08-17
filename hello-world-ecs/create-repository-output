@@ -1,0 +1,10 @@
+{
+    "repository": {
+        "registryId": "392364112965", 
+        "repositoryName": "hello-world", 
+        "repositoryArn": "arn:aws:ecr:us-east-1:392364112965:repository/hello-world", 
+        "createdAt": 1520887786.0, 
+        "repositoryUri": "392364112965.dkr.ecr.us-east-1.amazonaws.com/hello-world"
+    }
+}
+
